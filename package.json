@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "version": "1.0.0",
+  "version": "1",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -17,7 +17,16 @@
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "~18.2.14",
+    "@typescript-eslint/eslint-plugin": "^6.12.0",
+    "@typescript-eslint/parser": "^6.12.0",
+    "eslint": "^8.54.0",
+    "eslint-config": "^0.3.0",
+    "eslint-plugin-vue": "^9.18.1",
+    "prettier": "^3.1.0",
     "typescript": "^5.1.3"
   },
-  "private": true
+  "private": true,
+  "description": "app-teste",
+  "author": "Gustavo <gustavofariasmews@gmail.com>",
+  "license": "MIT"
 }
